@@ -22,7 +22,7 @@ module.exports = {
   /** resolves from snapshot to test path */
   resolveTestPath: (snapshotFilePath, snapshotExtension) => {
     const result = snapshotFilePath
-      .replace("src/", "dist/")
+      .replace("dist/", "src/")
       .replace(distDir, rootDir)
       .slice(0, -snapshotExtension.length);
     debug("snapshotFilePath", snapshotFilePath, snapshotExtension, result);
