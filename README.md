@@ -1,5 +1,7 @@
 # Bug Demonstration - Custom Snapshot Resolver
 
+**Repo Now Defunct, as fix was found!**
+
 The purpose of this repo is to reproduce the issue described here [[jest-snapshot] Custom Snapshot Directories confuse the Obsolete Snapshot Logger #7257](https://github.com/facebook/jest/issues/7257)
 
 ## Reproduction steps
